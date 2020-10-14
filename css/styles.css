@@ -1,0 +1,136 @@
+/* بسم الله الرحمن الرحيم */
+@font-face {
+  font-family: 'icons';
+  src: url('../font/icons.svg') format('svg'),
+       url('../font/icons.woff') format('woff');
+}
+.social, #up, #copy {
+  font-family: 'icons', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.social {
+  font-size: 17px;
+}
+#textlink {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  position: relative;
+  top:-1px;
+  word-spacing: 0.15rem;
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+main, .desc {
+  font-size: 18px;
+}
+@media (min-width: 890px) {
+  .container {
+    width: 890px;
+    margin: auto;
+  }
+}
+#topHead {
+  color: #424242;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 6px solid;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+#textlink, nav {
+  font-size: 14px;
+}
+#topHead ul, .TOC {
+  list-style: none;
+  padding: 0;
+}
+#topHead li {
+  display: inline;
+}
+#topHead nav, #textlink {
+  font-weight: bold;
+}
+#topHead a, .toTop {
+  text-decoration: none;
+}
+#topHead h1 {
+  font-weight: 800;
+  word-spacing: 0.5rem;
+  font-size: 50px;
+  margin: 15px 0;
+}
+#topHead p {
+  word-spacing: 0.15rem;
+}
+#topHead nav {
+  margin-top: 30px;
+  color: red;
+}
+#topHead nav li {
+  padding: 10px;
+}
+#topHead nav a {
+  color: red;
+}
+#topHead nav a:hover {
+  color: black;
+}
+#topHead .social li {
+  color: white;
+  margin: 3px;
+}
+#topHead .social a, .toTop {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+}
+#topHead .social a:hover, .toTop:hover {
+  background-color: black;
+}
+
+footer {
+  margin-top: 95px;
+  padding: 70px 0 60px;
+  background-color: #303030;
+  text-align: center;
+  font-size: 14px;
+}
+footer .toTop {
+  text-transform: uppercase;
+  font-weight: bold;
+  word-spacing: 0.15rem;
+}
+footer .toTop #up {
+  position: relative;
+  top:-1px;
+}
+.copy {
+  color: #656565;
+}
+.copy a {
+  color: #656565;
+  text-decoration: none;
+  word-spacing: 0.25rem;
+}
+.TOC a {
+  color: #424242;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 5px;
+  transition: all 0.3s;
+}
+.TOC a:hover {
+  color: red;
+  background-color: #FCF5F5;
+  padding-left: 10px;
+}
+.TOC li {
+  border-bottom: 1px dotted;
+  overflow: hidden;
+}
+.TOC header {
+  font-weight: bold;
+}
+/* والحمد لله رب العالمين */
