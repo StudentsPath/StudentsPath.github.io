@@ -94,7 +94,7 @@ main {
 #topHead .social a:hover, .toTop:hover {
   background-color: black;
 }
-@media (min-width: 400px) {
+@media (min-width: 500px) {
    #topHead .social br {
       display: none;
    }
