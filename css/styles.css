@@ -24,7 +24,13 @@ body {
 main, .desc {
   font-size: 18px;
 }
+main {
+   padding: 0 20px;
+}
 @media (min-width: 890px) {
+   main {
+      padding: 0;
+   }
   .container {
     width: 890px;
     margin: auto;
@@ -88,7 +94,11 @@ main, .desc {
 #topHead .social a:hover, .toTop:hover {
   background-color: black;
 }
-
+@media (min-width: 400px) {
+   #topHead .social br {
+      display: none;
+   }
+}
 footer {
   margin-top: 95px;
   padding: 70px 0 60px;
