@@ -132,5 +132,12 @@ footer .toTop #up {
 }
 .TOC header {
   font-weight: bold;
+  display: inline;
+}
+.pubDate {
+   color: lightgrey;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 14px;
 }
 /* والحمد لله رب العالمين */
