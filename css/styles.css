@@ -1,8 +1,8 @@
 /* بسم الله الرحمن الرحيم */
 @font-face {
   font-family: 'icons';
-  src: url('/font/icons.svg') format('svg'),
-       url('/font/icons.woff') format('woff');
+  src: url('../font/icons.svg') format('svg'),
+       url('../font/icons.woff') format('woff');
 }
 .social, #up, #copy {
   font-family: 'icons', 'Open Sans', Helvetica, Arial, sans-serif;
