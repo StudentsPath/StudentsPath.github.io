@@ -63,7 +63,7 @@ main {
 #topHead h1 {
   font-weight: 800;
   word-spacing: 0.5rem;
-  font-size: 40px;
+  font-size: 50px;
   margin: 15px 0;
 }
 #topHead p {
@@ -95,9 +95,6 @@ main {
   background-color: black;
 }
 @media (min-width: 500px) {
-   #topHead h1 {
-     font-size: 50px;
-   }
    #topHead .social br {
       display: none;
    }
