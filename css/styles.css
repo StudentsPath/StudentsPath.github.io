@@ -99,12 +99,6 @@ main {
 #topHead .social a:hover, .toTop:hover {
   background-color: black;
 }
-@media (min-width: 353px) {
-   #topHead h1 #the {
-     font-size: 50px;
-     line-height: 53px;
-   }
-}
 @media (min-width: 500px) {
    #topHead .social br {
       display: none;
