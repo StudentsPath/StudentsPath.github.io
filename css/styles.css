@@ -71,13 +71,13 @@ main {
 }
 #topHead nav {
   margin-top: 30px;
-  color: red;
+  color: blue;
 }
 #topHead nav li {
   padding: 10px;
 }
 #topHead nav a {
-  color: red;
+  color: blue;
 }
 #topHead nav a:hover {
   color: black;
@@ -87,7 +87,7 @@ main {
   margin: 3px;
 }
 #topHead .social a, .toTop {
-  background-color: red;
+  background-color: blue;
   color: white;
   padding: 4px 8px;
 }
@@ -132,7 +132,7 @@ footer .toTop #up {
   transition: all 0.3s;
 }
 .TOC a:hover {
-  color: red;
+  color: blue;
   background-color: #FCF5F5;
   padding-left: 10px;
 }
