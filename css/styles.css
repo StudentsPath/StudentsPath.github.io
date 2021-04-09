@@ -64,10 +64,12 @@ main {
   font-weight: 800;
   word-spacing: 0.5rem;
   font-size: 50px;
+  line-height: 53px;
   margin: 15px 0;
 }
 #topHead h1 #the {
-  font-size: 40px;
+  font-size: 30px;
+  line-height: 30px;
 }
 #topHead p {
   word-spacing: 0.15rem;
@@ -103,6 +105,7 @@ main {
    }
    #topHead h1 #the {
      font-size: 50px;
+     line-height: 53px;
    }
 }
 footer {
