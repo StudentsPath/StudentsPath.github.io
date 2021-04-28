@@ -155,6 +155,9 @@ footer .toTop #up {
   font-weight: bold;
   display: inline;
 }
+.updateList header {
+  font-weight: bold;
+}
 .pubDate {
    color: lightgrey;
    font-weight: bold;
