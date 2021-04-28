@@ -139,6 +139,9 @@ footer .toTop #up {
   padding: 20px 5px;
   transition: all 0.3s;
 }
+.updateList header {
+   padding-top: 20px;
+}
 .TOC a:hover, .NTOC a:hover {
   color: red;
   background-color: #FCF5F5;
