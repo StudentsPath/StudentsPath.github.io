@@ -51,6 +51,9 @@ main {
   list-style: none;
   padding: 0;
 }
+.NTOC {
+  padding: 0;
+}
 #topHead li {
   display: inline;
 }
@@ -128,7 +131,7 @@ footer .toTop #up {
   text-decoration: none;
   word-spacing: 0.25rem;
 }
-.TOC a {
+.TOC a, .NTOC a {
   color: #424242;
   text-decoration: none;
   display: inline-block;
@@ -136,7 +139,7 @@ footer .toTop #up {
   padding: 20px 5px;
   transition: all 0.3s;
 }
-.TOC a:hover {
+.TOC a:hover, .NTOC a:hover {
   color: red;
   background-color: #FCF5F5;
   padding-left: 10px;
@@ -145,7 +148,10 @@ footer .toTop #up {
   border-bottom: 1px dotted;
   overflow: hidden;
 }
-.TOC header {
+.NTOC li {
+  border-bottom: 1px dotted;
+}
+.TOC header, .NTOC header {
   font-weight: bold;
   display: inline;
 }
