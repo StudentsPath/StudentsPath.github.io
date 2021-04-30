@@ -167,4 +167,10 @@ footer .toTop #up {
    text-transform: uppercase;
    font-size: 14px;
 }
+.warning {
+   color:red;
+   text-align: center;
+   font-weight: bold;
+   text-decoration: underline;
+}
 /* والحمد لله رب العالمين */
